@@ -85,3 +85,7 @@ rules), slippage, and the fact that disclosed trades may be unrelated to future 
 `broker.py` is a thin interface: `account`, `positions`, `asset`, `clock`,
 `market_order`, `close_position`. Implement those for Schwab, Interactive Brokers,
 or Tradier and pass your class to `run_once` in `agent.py`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
